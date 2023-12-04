@@ -79,7 +79,7 @@ btn.addEventListener('click', function() {
 
 // calculation
 
-// economicorderquantity = (2 * yearlydemand * ordercost / yearlycostofholding)0.5
+// economicorderquantity = (2 * yearlydemand * ordercost / yearlycostofholding)^0.5
 
 function computeeconomicorderquantity() {
   return Math.sqrt(2 * Number(yearlydemand.value) * Number(ordercost.value) / Number(yearlycostofholding.value));
